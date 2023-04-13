@@ -1,0 +1,208 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+}
+
+h1,h2,h3,h4,h5,h6{
+    font-weight: bold;
+}
+
+p{
+    color:#8f8f8f;
+    font-size: large;
+    line-height: 1.2;
+}
+
+/* CONTAINERS */
+
+.container-fluid{
+    padding: 7% 15%;
+}
+
+/* HEADINGS */
+
+.big-heading{
+    font-size: 3.5rem;
+    line-height: 1.5;
+    padding-bottom: 4%;
+}
+
+/* SECTIONS */
+
+.colored-section{
+    background-color:#6C4AB6;
+    color:#fff;
+}
+
+.white-section{
+    background-color: #fff;
+
+}
+
+.section-heading{
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+/* TITLE SECTION */
+
+
+#title .container-fluid{
+    padding: 3% 15% 7%;
+    text-align: left;
+}
+
+/* Navigation Bar */
+
+.navbar-brand{
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.navbar{
+    padding: 0 0 4.5rem;
+}
+
+.nav-item{
+    padding: 0 18px;
+}
+
+.nav-link{
+    font-weight:light;
+    font-size: 1.2rem;
+}
+
+/* Navibar Button */
+
+.title-btn{
+    margin: 5% 3% 5% 0;
+}
+
+/* Title Image */
+
+.title-img{
+    transform: rotate(25deg);
+    width: 20%;
+    margin-left: 5%;
+    position: absolute;
+}
+
+
+/* FEATURE SECTION */
+
+#features{
+    position: relative;
+    z-index: 1;
+
+}
+
+.feature-icon{
+    color:#A084DC;
+}
+
+.feature-icon:hover{
+    color:#6C4AB6;
+}
+
+.feature-column{
+    padding: 4%;
+}
+
+.feature-heading{
+    font-size: 1.5rem;
+    padding-top: 5%;
+}
+
+.feature-paragraph{
+    color:#8f8f8f;
+}
+
+/* TESTIMONIAL SECTION */
+
+#testimonials{
+    background-color:#A084DC;
+}
+
+.testimonial-img{
+    width: 8%;
+    border-radius: 100%;
+    margin: 20px;
+}
+
+.testimonial-text{
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+.carousel-control-prev-icon, .carousel-control-next-icon{
+    width: 5vw;
+    height: 5vw;
+}
+
+#press{
+    background-color:#A084DC;
+    padding-bottom: 3%;
+}
+
+.press-icon{
+    width: 15%;
+    margin: 20px 20px 50px;
+}
+
+/* PRICING SECTION */
+
+.card{
+    border-width: 3px;
+}
+
+.pricing-card{
+    padding: 3% 2%;
+    
+}
+
+.card-header{
+    padding-top: 20px;
+}
+
+.pricing-title{
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+/* CALL TO ACTION */
+
+.cta-heading{
+    font-size: 3.5rem;
+    line-height: 1.5;
+}
+
+
+/* FOOTER */
+
+.footer-icon{
+    margin: 2% 1%;
+}
+
+#footer .container-fluid{
+    padding: 6% 15% 3%;
+}
+
+
+@media(max-width:1032px) and (min-width:992px){
+    h1{
+        font-size: 3rem;
+    }  
+}
+
+@media(max-width:991.9px){
+    .title-img{
+        position: static;
+        transform: rotate(0);
+        width: 40%;
+    }
+
+    #title{
+        text-align: center;
+    }
+}
